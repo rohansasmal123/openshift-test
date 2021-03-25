@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1>My first PHP Page</h1>
+<body bgcolor='aqua'>
+<pre>
 
 <?php
+
+print "welcome to vimal web server for testing";
+
+
 print `ifconfig`;
 
-echo "Hello World!";
 ?>
 
-</body>
-</html>
+</pre>
