@@ -5,9 +5,7 @@
 <h1>My first PHP Page</h1>
 
 <?php
-$output = shell_exec('ifconfig');
-
-echo "<pre>$output</pre>";
+print `ifconfig`;
 
 echo "Hello World!";
 ?>
